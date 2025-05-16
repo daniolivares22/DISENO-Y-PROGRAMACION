@@ -36,7 +36,7 @@ El sitio está enfocado en:
 El diseño visual del sitio web, así como la organización de la información, se inspiraron en plataformas reconocidas por su uso de infografías, visualización de datos y dashboards interactivos:
 
 - [Reuters Graphics](https://www.reuters.com/graphics/)
-  ![Why Met Gala looks have gotten bigger and bolder](./images/Why Met Gala looks have gotten bigger and bolder.png)
+  ![Why Met Gala looks have gotten bigger and bolder](../images/Why Met Gala looks have gotten bigger and bolder.png)
 
 
 
