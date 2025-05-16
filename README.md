@@ -1,4 +1,4 @@
-# DISE-O-Y-PROGRAMACI-N
+# DISENO-Y-PROGRAMACION
 # Trabajo Final - Desarrollo Web y Diseño Visual de Información
 
 ## Tema: Iconos del Diseño de Sillas Modernas
