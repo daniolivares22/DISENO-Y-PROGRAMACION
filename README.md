@@ -52,11 +52,14 @@ El diseño visual del sitio web, así como la organización de la información, 
 
 ## Referentes Visuales
 
+[Which Fish Best to Eat](https://informationisbeautiful.net/visualizations/which-fish-best-safest-healthy-to-eat/)
 [![Which Fish Best to Eat](images/which-fish-best-safest.jpg)](https://informationisbeautiful.net/visualizations/which-fish-best-safest-healthy-to-eat/)
 
+[Best In Show - Data Dog](https://informationisbeautiful.net/visualizations/best-in-show-whats-the-top-data-dog/)
 [![Best In Show - Data Dog](images/best-in-show-data-dog.jpg)](https://informationisbeautiful.net/visualizations/best-in-show-whats-the-top-data-dog/)
 
 ## Antecedentes
 
+[Taburet Furniture – Behance](https://www.behance.net/gallery/158943715/Taburet-Furniture)
 [![Taburet Furniture – Behance](images/taburet-furniture.jpg)](https://www.behance.net/gallery/158943715/Taburet-Furniture)
 
