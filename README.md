@@ -52,10 +52,10 @@ El diseño visual del sitio web, así como la organización de la información, 
 
 ## Referentes Visuales
 
-- [Which Fish Best to Eat - Information is Beautiful](https://informationisbeautiful.net/visualizations/which-fish-best-safest-healthy-to-eat/)
-[![Thumbnail](http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Finformationisbeautiful.net%2Fvisualizations%2Fwhich-fish-best-safest-healthy-to-eat)
+## Referentes Visuales
 
-- [Best In Show Data Dog - Information is Beautiful](https://informationisbeautiful.net/visualizations/best-in-show-whats-the-top-data-dog/)
-[![Thumbnail](http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Finformationisbeautiful.net%2Fvisualizations%2Fbest-in-show-whats-the-top-data-dog)
+[![Which Fish Best to Eat](images/which-fish-best-safest.jpg)](https://informationisbeautiful.net/visualizations/which-fish-best-safest-healthy-to-eat/)
+
+[![Best In Show - Data Dog](images/best-in-show-data-dog.jpg)](https://informationisbeautiful.net/visualizations/best-in-show-whats-the-top-data-dog/)
 
 ## Antecedentes
