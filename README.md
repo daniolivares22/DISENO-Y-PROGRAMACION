@@ -57,3 +57,6 @@ El diseño visual del sitio web, así como la organización de la información, 
 [![Best In Show - Data Dog](images/best-in-show-data-dog.jpg)](https://informationisbeautiful.net/visualizations/best-in-show-whats-the-top-data-dog/)
 
 ## Antecedentes
+
+[![Taburet Furniture – Behance](images/taburet-furniture.jpg)](https://www.behance.net/gallery/158943715/Taburet-Furniture)
+
