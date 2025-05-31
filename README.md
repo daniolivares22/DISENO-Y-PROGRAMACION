@@ -39,7 +39,6 @@ El diseño visual del sitio web, así como la organización de la información, 
   ![Why Met Gala looks have gotten bigger and bolder](./images/Why-Met-Gala.png)
 
 
-
 ## Referencias
 
 - Fiell, Charlotte & Peter. *1000 Chairs*. Taschen, 2005.  
@@ -48,3 +47,15 @@ El diseño visual del sitio web, así como la organización de la información, 
 - Sitio oficial de [Herman Miller](https://www.hermanmiller.com/)  
 - Sitio oficial de [Knoll](https://www.knoll.com/)  
 - [Vitra Design Museum](https://www.design-museum.de/)
+
+# REFERENTES Y ANTEEDENTES
+
+## Referentes Visuales
+
+- [Which Fish Best to Eat - Information is Beautiful](https://informationisbeautiful.net/visualizations/which-fish-best-safest-healthy-to-eat/)
+[![Thumbnail](http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Finformationisbeautiful.net%2Fvisualizations%2Fwhich-fish-best-safest-healthy-to-eat)
+
+- [Best In Show Data Dog - Information is Beautiful](https://informationisbeautiful.net/visualizations/best-in-show-whats-the-top-data-dog/)
+[![Thumbnail](http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Finformationisbeautiful.net%2Fvisualizations%2Fbest-in-show-whats-the-top-data-dog)
+
+## Antecedentes
