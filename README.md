@@ -48,7 +48,7 @@ El diseño visual del sitio web, así como la organización de la información, 
 - Sitio oficial de [Knoll](https://www.knoll.com/)  
 - [Vitra Design Museum](https://www.design-museum.de/)
 
-# REFERENTES Y ANTEEDENTES
+# REFERENTES Y ANTECEDENTES
 
 ## Referentes Visuales
 
