@@ -1,52 +1,172 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sillas de Diseñador - Organización de Contenidos</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Sillas Icónicas del Diseño Moderno</title>
+    <style>
+        [data-theme="light"] { --color-bg: #eceff1; --color-fg: #263238; }
+        [data-theme="dark"] { --color-bg: #263238; --color-fg: #eceff1; }
+        * { margin: 0; padding: 0; }
+        body { 
+            font-family: monospace; 
+            color: var(--color-fg); 
+            background: var(--color-bg); 
+            text-align: center;
+        }
+        header, main, footer { 
+            padding: 1% 10%; 
+            width: min(70%, 700px); 
+            margin: 0 auto; 
+            text-align: left; 
+            background: #101935;
+        }
+        figure {
+            margin: 1% -10%;
+        }
+        figure img {
+            width: 100%;
+        }
+        figure figcaption {
+            margin: 1% 8%;
+            color: #ffffff
+        }
+        header {
+            margin-top: 2rem;
+            color: #ffffff;
+        }
+        footer {
+            margin-bottom: 2rem;
+            color: #ffffff
+        }
+        h1, h2, h5 {
+            text-align: center;
+            margin-top: 1rem;
+            color: #ffffff
+        }
+        h3 {
+            margin-top: 3rem;
+            color: #ffffff
+        }
+
+        p {
+           text-align: center;
+           margin-top: 2rem; 
+           color: #ffffff
+        }
+    </style>
+
 </head>
 <body>
     <header>
-        <h1>Diseño de Sillas Icónicas</h1>
-        <p>Introducción al diseño de sillas creadas por grandes diseñadores, su historia y relevancia.</p>
+        <h1>Las sillas más famosas del diseño moderno</h1>
+        <h2>Comparativa visual y análisis de su impacto</h2>
+        <h5>Por Daniela Olivares</h5>
+        <p>Este trabajo analiza una selección de sillas icónicas del diseño moderno a través de datos comparativos: ejemplares vendidos, premios ganados y número de imitaciones. También se consideran sus procesos constructivos y su legado en la historia del diseño industrial.</p>
     </header>
+    <main>
+        <article>
+            <h3>Volumen de ventas estimado</h3>
+            <figure>
+                <figure>
+                    <img src="bocetos/wassily.svg" alt="Boceto de visualización de datos">
+                    <figcaption>Boceto de visualización de datos (versión SVG)</figcaption>
+                </figure>
+            </figure>
+            <p>La Eames Lounge Chair y la Tulip Chair destacan por sus cifras de ventas globales, superando las 6 cifras en unidades gracias a su presencia en películas, hogares y oficinas.</p>
+        </article>
+        <article>
+            <h3>Premios y reconocimientos</h3>
+            <figure>
+                <img src="https://images.ctfassets.net/pdf29us7flmy/63wBLDfuNpESMQ5lFPGWrU/8b76d1862870b1312b32cd2ae4438c46/GOLD-6487-CareerGuide-Batch04-Images-GraphCharts-08-Pie.png?w=720&q=100&fm=avif">
+                <figcaption>Premios de diseño otorgados por silla</figcaption>
+            </figure>
+            <p>La Eames Lounge Chair y la Barcelona Chair figuran como las más premiadas, reconocidas por su innovación estética y confort estructural.</p>
+        </article>
+        <article>
+            <h3>Número de copias e imitaciones</h3>
+            <figure>
+                <img src="https://images.ctfassets.net/pdf29us7flmy/51sHTHQeWaWNAZ5IlyRTs8/b916596b1c94e2fbbf1df2db07e85aa9/GOLD-6487-CareerGuide-Batch04-Images-GraphCharts-07-Flowchart.png?w=720&q=100&fm=avif">
+                <figcaption>Distribución estimada de imitaciones</figcaption>
+            </figure>
+            <p>Modelos como la Wassily Chair y la LC4 Chaise Longue han sido ampliamente replicados por marcas paralelas, lo que muestra su influencia pero también la dificultad de controlar su propiedad intelectual.</p>
+        </article>            
+        <article>
+            <h3>Procesos constructivos</h3>
+            <figure>
+                <img src="https://images.ctfassets.net/pdf29us7flmy/3qy7LasC628YTk0rb7hcAY/5a35687a67bbb3a709f852dbb8c62351/GOLD-6487-CareerGuide-Batch04-Images-GraphCharts-06-ScatterPlot.png?w=720&q=100&fm=avif">
+                <figcaption>Relación entre materiales y procesos de fabricación</figcaption>
+            </figure>
+            <p>Desde el curvado de contrachapado de los Eames hasta el tubular de acero de Breuer, cada silla representa una innovación técnica acorde a su época.</p>
+        </article>
+        <article>
+            <p>En conclusión, estas sillas no solo son objetos utilitarios, sino también símbolos de avance cultural, técnico y estético. Comparar sus datos nos permite comprender mejor su impacto global en el diseño.</p>
+        </article>
+        <article>
+            <h3>Popularidad de sillas de oficina según Reddit</h3>
+            <canvas id="officeChairsChart" width="1000" height="800"></canvas>
+        </article>
 
-    <section id="presentacion">
-        <h2>Presentación del Tema</h2>
-        <p>Descripción general del tema: exploración de diseños de sillas icónicas como la Wassily, LC4 Chaise Longue, Tulip Chair, Eames Lounge Chair, entre otras.</p>
-    </section>
-
-    <section id="sillas-ejemplos">
-        <h2>Ejemplos de Sillas Famosas</h2>
-        <ul>
-            <li>Wassily Chair – Marcel Breuer</li>
-            <li>LC4 Chaise Longue – Le Corbusier, Charlotte Perriand & Pierre Jeanneret</li>
-            <li>Tulip Chair – Eero Saarinen</li>
-            <li>Eames Lounge Chair – Charles & Ray Eames</li>
-            <li>Barcelona Chair – Ludwig Mies van der Rohe</li>
-            <li>Paimio Chair – Alvar Aalto</li>
-            <li>Red and Blue Chair – Gerrit Rietveld</li>
-            <li>Panton Chair – Verner Panton</li>
-        </ul>
-    </section>
-
-    <section id="historia">
-        <h2>Historia y Contexto</h2>
-        <p>Contexto histórico de cada diseño y su impacto en el diseño de mobiliario moderno.</p>
-    </section>
-
-    <section id="procesos-constructivos">
-        <h2>Procesos Constructivos</h2>
-        <p>Explicación de los distintos procesos constructivos usados en cada silla, materiales y técnicas.</p>
-    </section>
-
-    <section id="analisis-comparativo">
-        <h2>Análisis Comparativo</h2>
-        <p>Comparación cuantitativa entre sillas basándose en premios ganados, ejemplares vendidos y número de imitaciones.</p>
-    </section>
-
+    </main>
     <footer>
-        <p>Trabajo Final - Diseño y Desarrollo Web</p>
+        Trabajo final – Diseño y programación web · 2025
     </footer>
+
+    <script>
+        async function datos() {
+            const consulta = await fetch("…");
+            const data = await consulta.json();
+            console.log(data);
+        }
+        datos().catch((error) => console.error(error));
+    </script>
+    <script>
+    const ctx = document.getElementById('officeChairsChart').getContext('2d');
+    const chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: [
+                'STEELCASE LEAP V2', 'HERMAN MILLER AERON', 'STEELCASE LEAP',
+                'STEELCASE GESTURE', 'HERMAN MILLER EMBODY', 'HAWORTH ZODY',
+                'STEELCASE AMIA', 'HAWORTH FERN', 'MIRRA', 'STAPLES HYKEN',
+                'LOGITECH EMBODY', 'HERMAN MILLER MIRRA 2', 'HERMAN MILLER SAYL',
+                'HUMANSCALE FREEDOM', 'STEELCASE SERIES 1', 'STEELCASE SERIES 2',
+                'Nightingale CXO', 'HERMAN MILLER GAMING SAYL', 'AERON CLASSIC'
+            ],
+            datasets: [{
+                label: 'Positive Mentions',
+                data: [
+                    950, 900, 650, 500, 450,
+                    320, 290, 220, 190, 160,
+                    140, 130, 120, 110, 100,
+                    90, 80, 70, 60
+                ],
+                backgroundColor: 'rgba(66, 133, 244, 0.9)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            scales: {
+                x: {
+                    beginAtZero: true
+                }
+            },
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return context.raw + ' menciones positivas';
+                        }
+                    }
+                }
+            }
+        }
+    });
+</script>
+
 </body>
 </html>
