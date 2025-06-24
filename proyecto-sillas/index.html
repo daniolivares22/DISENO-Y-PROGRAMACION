@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sillas Icónicas del Siglo XX</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="carousel" class="carousel"></div>
+
+  <section id="fichas" class="fichas-section">
+  <h2>Detalles de cada Silla</h2>
+  <div id="ficha-container" class="ficha-grid"></div>
+  </section>
+
+  <section class="grafico-section">
+    <h2>Comparación de Precios (USD)</h2>
+    <canvas id="priceChart" height="300"></canvas>
+  </section>
+
+  <section class="grafico-section">
+    <h2>Ventas Estimadas por Silla</h2>
+    <canvas id="salesChart" height="300"></canvas>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

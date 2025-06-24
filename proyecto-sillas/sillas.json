@@ -1,0 +1,65 @@
+
+[{
+  "nombre": "Silla Wassily",
+  "diseñador": "Marcel Breuer",
+  "año": 1925,
+  "pais": "Alemania",
+  "descripcion": "Una de las primeras sillas en utilizar tubos de acero curvados. Inspirada por el manillar de una bicicleta.",
+  "imagen": "img/wassily.jpg"
+},
+{
+  "nombre": "Eames Lounge Chair",
+  "diseñador": "Charles & Ray Eames",
+  "año": 1956,
+  "pais": "Estados Unidos",
+  "descripcion": "Una combinación de confort y elegancia en madera curvada y cuero.",
+  "imagen": "img/eames.jpg"
+},
+{
+  "nombre": "Tulip Chair",
+  "diseñador": "Eero Saarinen",
+  "año": 1955,
+  "pais": "Finlandia",
+  "descripcion": "Diseño futurista monopié que elimina las 'piernas feas' de la silla.",
+  "imagen": "img/tulip.jpg"
+},
+{
+  "nombre": "LC2 Chair",
+  "diseñador": "Le Corbusier",
+  "año": 1928,
+  "pais": "Francia",
+  "descripcion": "Sillón con estructura metálica expuesta. Icono del modernismo.",
+  "imagen": "img/lc2.jpg"
+},
+{
+  "nombre": "Panton Chair",
+  "diseñador": "Verner Panton",
+  "año": 1960,
+  "pais": "Dinamarca",
+  "descripcion": "Primera silla de plástico moldeado en una sola pieza.",
+  "imagen": "img/panton.jpg"
+},
+{
+  "nombre": "Barcelona Chair",
+  "diseñador": "Mies van der Rohe",
+  "año": 1929,
+  "pais": "Alemania",
+  "descripcion": "Diseñada para el pabellón alemán en la Expo de Barcelona.",
+  "imagen": "img/barcelona.jpg"
+},
+{
+  "nombre": "Red Blue Chair",
+  "diseñador": "Gerrit Rietveld",
+  "año": 1918,
+  "pais": "Países Bajos",
+  "descripcion": "Representación tridimensional del estilo De Stijl.",
+  "imagen": "img/redblue.jpg"
+},
+{
+  "nombre": "Egg Chair",
+  "diseñador": "Arne Jacobsen",
+  "año": 1958,
+  "pais": "Dinamarca",
+  "descripcion": "Diseñada para el lobby del SAS Royal Hotel en Copenhague.",
+  "imagen": "img/egg.jpg"
+}]
