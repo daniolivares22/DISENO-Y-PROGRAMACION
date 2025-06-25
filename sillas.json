@@ -1,0 +1,148 @@
+[
+  {
+    "nombre": "Wassily Chair",
+    "disenador": "Marcel Breuer",
+    "año": 1925,
+    "pais": "Alemania",
+    "material": "Metal",
+    "descripcion": "Una de las primeras sillas en utilizar tubos de acero curvados. Inspirada por el manillar de una bicicleta.",
+    "imagen": "img/wassily.jpg"
+  },
+  {
+    "nombre": "Eames Lounge Chair",
+    "disenador": "Charles y Ray Eames",
+    "año": 1956,
+    "pais": "Estados Unidos",
+    "material": "Tapizado",
+    "descripcion": "Combinación de confort, lujo y tecnología industrial que se convirtió en un clásico del diseño mid-century modern.",
+    "imagen": "img/eames.jpg"
+  },
+  {
+    "nombre": "Tulip Chair",
+    "disenador": "Eero Saarinen",
+    "año": 1955,
+    "pais": "Estados Unidos",
+    "material": "Fibra de vidrio",
+    "descripcion": "Diseño futurista con base tipo pedestal que elimina las patas tradicionales, realizado en fibra de vidrio y aluminio.",
+    "imagen": "img/tulip.jpg"
+  },
+  {
+    "nombre": "LC2 Chair",
+    "disenador": "Le Corbusier, Pierre Jeanneret, Charlotte Perriand",
+    "año": 1928,
+    "pais": "Francia",
+    "material": "Tapizado",
+    "descripcion": "Icono del modernismo, con estructura tubular de acero y cojines independientes que enfatizan la forma y funcionalidad.",
+    "imagen": "img/lc2.jpg"
+  },
+  {
+    "nombre": "Panton Chair",
+    "disenador": "Verner Panton",
+    "año": 1960,
+    "pais": "Dinamarca",
+    "material": "Plástico",
+    "descripcion": "Primera silla fabricada en una sola pieza de plástico moldeado, con formas orgánicas y futuristas.",
+    "imagen": "img/panton.jpg"
+  },
+  {
+    "nombre": "Barcelona Chair",
+    "disenador": "Ludwig Mies van der Rohe y Lilly Reich",
+    "año": 1929,
+    "pais": "Alemania",
+    "material": "Tapizado",
+    "descripcion": "Diseño elegante y minimalista, símbolo del modernismo internacional y del lujo contemporáneo.",
+    "imagen": "img/barcelona.jpg"
+  },
+  {
+    "nombre": "Red and Blue Chair",
+    "disenador": "Gerrit Rietveld",
+    "año": 1918,
+    "pais": "Países Bajos",
+    "material": "Madera",
+    "descripcion": "Representante del movimiento De Stijl, con líneas geométricas y colores primarios que expresan la abstracción pura.",
+    "imagen": "img/redblue.jpg"
+  },
+  {
+    "nombre": "Egg Chair",
+    "disenador": "Arne Jacobsen",
+    "año": 1958,
+    "pais": "Dinamarca",
+    "material": "Tapizado",
+    "descripcion": "Silla con forma envolvente que ofrece privacidad y confort, creada para un hotel de lujo en Copenhague.",
+    "imagen": "img/egg.jpg"
+  },
+  {
+    "nombre": "Paimio Chair",
+    "disenador": "Alvar Aalto",
+    "año": "1931-32",
+    "pais": "Finlandia",
+    "material": "Madera",
+    "descripcion": "Silla de madera laminada curvada que combina funcionalidad con un diseño orgánico y suave.",
+    "imagen": "img/paimio.jpg"
+  },
+  {
+    "nombre": "Eames Plastic Side Chair",
+    "disenador": "Charles y Ray Eames",
+    "año": 1950,
+    "pais": "Estados Unidos",
+    "material": "Plástico",
+    "descripcion": "Silla ligera de plástico moldeado que revolucionó la producción en masa de muebles accesibles y modernos.",
+    "imagen": "img/eamesplastic.jpg"
+  },
+  {
+    "nombre": "Diamond Chair",
+    "disenador": "Harry Bertoia",
+    "año": 1952,
+    "pais": "Estados Unidos",
+    "material": "Metal",
+    "descripcion": "Estructura metálica formada por varillas de acero que crea una forma escultural y liviana.",
+    "imagen": "img/diamond.jpg"
+  },
+  {
+    "nombre": "Serie 7 Chair",
+    "disenador": "Arne Jacobsen",
+    "año": 1955,
+    "pais": "Dinamarca",
+    "material": "Madera",
+    "descripcion": "Silla apilable de madera laminada moldeada, uno de los diseños más producidos del siglo XX.",
+    "imagen": "img/serie7.jpg"
+  },
+  {
+    "nombre": "Wishbone Chair (CH24)",
+    "disenador": "Hans J. Wegner",
+    "año": 1949,
+    "pais": "Dinamarca",
+    "material": "Madera",
+    "descripcion": "Silla de madera maciza con respaldo curvado y asiento de fibra natural, mezcla de artesanía y diseño funcional.",
+    "imagen": "img/wishbone.jpg"
+  },
+  {
+    "nombre": "Globe Chair (Ball Chair)",
+    "disenador": "Eero Aarnio",
+    "año": 1963,
+    "pais": "Finlandia",
+    "material": "Fibra de vidrio",
+    "descripcion": "Silla espacial de fibra de vidrio con forma esférica que ofrece una experiencia envolvente y privada.",
+    "imagen": "img/globe.jpg"
+  },
+  {
+    "nombre": "Hill House Chair",
+    "disenador": "Charles R. Mackintosh",
+    "año": 1903,
+    "pais": "Escocia",
+    "material": "Madera",
+    "descripcion": "Silla geométrica y alta, con un fuerte carácter escultórico dentro del movimiento Arts & Crafts.",
+    "imagen": "img/hillhouse.jpg"
+  },
+  {
+    "nombre": "Superleggera Chair",
+    "disenador": "Gio Ponti",
+    "año": 1957,
+    "pais": "Italia",
+    "material": "Madera",
+    "descripcion": "Diseño ultraligero inspirado en la silla tradicional Chiavari. Famosa por su elegancia estructural y su peso de solo 1.7 kg.",
+    "imagen": "img/superleggera.jpg"
+  }
+]
+
+

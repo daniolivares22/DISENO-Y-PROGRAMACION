@@ -1,0 +1,18 @@
+[
+  { "silla": "Wassily Chair", "precio_venta_usd": 2500 },
+  { "silla": "Eames Lounge Chair", "precio_venta_usd": 6000 },
+  { "silla": "Tulip Chair", "precio_venta_usd": 1800 },
+  { "silla": "LC2 Chair", "precio_venta_usd": 4500 },
+  { "silla": "Panton Chair", "precio_venta_usd": 400 },
+  { "silla": "Barcelona Chair", "precio_venta_usd": 7500 },
+  { "silla": "Red and Blue Chair", "precio_venta_usd": 1500 },
+  { "silla": "Egg Chair", "precio_venta_usd": 3200 },
+  { "silla": "Paimio Chair", "precio_venta_usd": 2100 },
+  { "silla": "Eames Plastic Side Chair", "precio_venta_usd": 350 },
+  { "silla": "Diamond Chair", "precio_venta_usd": 1200 },
+  { "silla": "Serie 7 Chair", "precio_venta_usd": 900 },
+  { "silla": "Wishbone Chair (CH24)", "precio_venta_usd": 850 },
+  { "silla": "Globe Chair (Ball Chair)", "precio_venta_usd": 4300 },
+  { "silla": "Hill House Chair", "precio_venta_usd": 1800 },
+  { "silla": "Superleggera Chair", "precio_venta_usd": 950 }
+]
