@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sillas Icónicas del Siglo XX</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="icon" href="ruta/a/tu/favicon.ico" />
+</head>
+<body>
+  <div id="carousel" class="carousel"></div>
+
+  <section class="filtros-section">
+    <h2>FILTRAR SILLAS</h2>
+    <div class="filtros">
+      <select id="filtro-disenador">
+        <option value="">TODOS LOS DISEÑADORES</option>
+      </select>
+
+      <select id="filtro-material">
+        <option value="">TODOS LOS MATERIALES</option>
+      </select>
+
+      <select id="filtro-ano">
+        <option value="">TODOS LOS AÑOS</option>
+      </select>
+
+      <button id="btn-filtrar">FILTRAR</button>
+      <button id="btn-reset">RESETEAR FILTROS</button>
+    </div>
+  </section>
+
+  <section id="fichas" class="fichas-section">
+    <h2>SILLAS ICÓNICAS DEL SIGLO XX</h2>
+    <div id="ficha-container" class="ficha-grid"></div>
+  </section>
+
+  <section class="grafico-section">
+    <h2>PRECIOS Y VENTAS DE CADA SILLA</h2>
+    <canvas id="mixedChart" height="700"></canvas>
+  </section>
+
+  <script src="script.js"></script>
+
+  <div id="modal-detalle" class="modal">
+    <div class="modal-content">
+      <span class="close" id="cerrar-modal">&times;</span>
+      <img id="modal-imagen" src="" alt="" />
+      <h2 id="modal-nombre"></h2>
+      <p><strong>Diseñador:</strong> <span id="modal-disenador"></span></p>
+      <p><strong>Año:</strong> <span id="modal-ano"></span></p>
+      <p><strong>País:</strong> <span id="modal-pais"></span></p>
+      <p id="modal-descripcion"></p>
+    </div>
+  </div>
+
+</body>
+</html>
+
